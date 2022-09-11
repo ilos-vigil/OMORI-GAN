@@ -2,10 +2,32 @@
 
 Generate OMORI character sprite with Generative Adversarial Networks (GAN) using PyTorch Lightning.
 
+## Example generated image
+
 <details>
 <summary>Spoiler warning: Example of generated sprite</summary>
 
-<img src="./2_gan_model/run_history/OMORI_SPRITE_AIM_25_LONG/result/10000.png" alt="Run 25 epoch 10000" width="548" height="548" style="image-rendering:pixelated"/>
+> Sunny hiding his hands
+
+<img src="_example/01.png" alt="Run 25 epoch 10000" width="256" height="256" style="image-rendering:pixelated"/>
+
+> Kel with different uniform
+
+<img src="_example/02.png" alt="Run 25 epoch 10000" width="256" height="256" style="image-rendering:pixelated"/>
+
+> New NPC?
+
+<img src="_example/03.png" alt="Run 25 epoch 10000" width="256" height="256" style="image-rendering:pixelated"/>
+
+> Sample of generated image during GAN training
+
+<img src="gan_model/run_history/OMORI_SPRITE_AIM_25_LONG/result/10000.png" alt="Run 25 epoch 10000" width="548" height="548" style="image-rendering:pixelated"/>
+
+> Example of generated sprite from https://ilos-vigil.github.io/OMORI-GAN
+
+<img src="_example/04.png" alt="Run 25 epoch 10000" style="image-rendering:pixelated"/>
+
+
 </details>
 
 ## Setup
@@ -13,8 +35,8 @@ Generate OMORI character sprite with Generative Adversarial Networks (GAN) using
 All code in this repository only tested with Python 3.8 on Debian-based Linux distribution. I assume you already install CUDA, cuDNN and other library/driver required to run PyTorch. If you use RTX 3000, you may need head to https://pytorch.org/get-started/locally/ and install PyTorch with Compute Platform CUDA 11.3 or 11.6.
 
 ```
-git clone OMORI_GAN
-cd OMORI_GAN
+git clone https://github.com/ilos-vigil/OMORI-GAN
+cd OMORI-GAN
 python3.8 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
