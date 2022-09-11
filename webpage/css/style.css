@@ -1,0 +1,51 @@
+.pixelated {
+    image-rendering: pixelated;
+}
+
+/* https://github.com/Dogfalo/materialize/issues/5436 */
+.tabs-content.carousel.carousel-slider .carousel-item.active {
+    position: relative;
+}
+
+.tabs-content.carousel.carousel-slider {
+    height: auto !important;
+}
+
+input[type=range] {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+/* https://toughengineer.github.io/demo/slider-styler/slider-styler.html */
+input[type=range]::-webkit-slider-thumb {
+    background: #1a237e;
+    border: 2px solid #7986cb;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    background: #f5f5f5
+}
+
+input[type=range]::-moz-range-thumb {
+    background: #1a237e;
+    border: 2px solid #7986cb;
+}
+
+input[type=range]::-moz-range-track {
+    background: #f5f5f5
+}
+
+/* font */
+@font-face {
+    font-family: OMORI;
+    src: url('../fonts/OMORI_GAME2.ttf');
+}
+
+h1, h4 {
+    font-family: OMORI;
+}
+
+.omori-font > * {
+    font-family: OMORI;
+    font-size: 1.6em;
+    font-weight: bold;
+}
