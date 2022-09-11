@@ -27,6 +27,7 @@ pip install -r requirements.txt
 * `preprocessing` contain script to decrypt and preprocess data from OMORI game.
 * `gan_model` contain code to train DCGAN model. Some model weight and run history also included.
 * `other_experiment` contains report of creating GAN model using different ready-to-use model.
+* `docs` contain source code of static webpage which generate OMORI character sprite. Visit https://ilos-vigil.github.io/OMORI-GAN for live demo.
 
 ## What is OMORI?
 
