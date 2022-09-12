@@ -9,23 +9,23 @@ Generate OMORI character sprite with Generative Adversarial Networks (GAN) using
 
 > Sunny hiding his hands
 
-<img src="_example/01.png" alt="Run 25 epoch 10000" width="256" height="256" style="image-rendering:pixelated"/>
+<img src="_example/01_big.png" alt="Run 25 epoch 10000"/>
 
 > Kel with different uniform
 
-<img src="_example/02.png" alt="Run 25 epoch 10000" width="256" height="256" style="image-rendering:pixelated"/>
+<img src="_example/02_big.png" alt="Run 25 epoch 10000"/>
 
 > New NPC?
 
-<img src="_example/03.png" alt="Run 25 epoch 10000" width="256" height="256" style="image-rendering:pixelated"/>
+<img src="_example/03_big.png" alt="Run 25 epoch 10000"/>
 
 > Sample of generated image during GAN training
 
-<img src="gan_model/run_history/OMORI_SPRITE_AIM_25_LONG/result/10000.png" alt="Run 25 epoch 10000" width="548" height="548" style="image-rendering:pixelated"/>
+<img src="_example/OMORI_SPRITE_AIM_25_LONG_10000_big.png" alt="Run 25 epoch 10000"/>
 
 > Example of generated sprite from https://ilos-vigil.github.io/OMORI-GAN
 
-<img src="_example/04.png" alt="Run 25 epoch 10000" style="image-rendering:pixelated"/>
+<img src="_example/04.png" alt="Run 25 epoch 10000"/>
 
 
 </details>
