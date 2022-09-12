@@ -1,6 +1,7 @@
 .pixelated {
     image-rendering: pixelated;
-    aspect-ratio: 1.0;
+    /* caused bug on few browser */
+    /* aspect-ratio: 1.0; */
 }
 
 /* https://github.com/Dogfalo/materialize/issues/5436 */
