@@ -38,7 +38,7 @@ six==1.16.0
 tensorboard==2.10.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.1
-torch==1.12.1
+torch==1.13.1
 torchmetrics==0.9.3
 torchvision==0.13.1
 tqdm==4.64.1
